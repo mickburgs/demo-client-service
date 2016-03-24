@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: demo-client
+  labels:
+    name: demo-client
+spec:
+  replicas: 1
+  selector:
+    name: demo-client
+  template:
+    metadata:
+      labels:
+        name: demo-client
+    spec:
+      containers:
+      - name: demo-client
+        image: mickburgs/demo-client-service
+        ports:
+        - containerPort: 8111
+          hostPort: 8111
+
