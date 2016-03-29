@@ -17,8 +17,8 @@ spec:
       - name: demo-client
         image: mickburgs/demo-client-service
         env:
-        - name: WORDPRESS_DB_HOST
-          value: test
+        - name: URL_TO_TAR
+          value: https://mxt-jenkins01.newyse.maxxton/view/ms%20acc/job/build-employee-service-acceptance/ws/build/distributions/employee-service.tar
         ports:
         - containerPort: 8111
           hostPort: 8111
