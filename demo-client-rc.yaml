@@ -17,8 +17,9 @@ spec:
       - name: demo-client
         image: mickburgs/demo-client-service
         env:
-        - name: URL_TO_TAR
-          value: https://mxt-jenkins01.newyse.maxxton/view/ms%20acc/job/build-config-server-acceptance/ws/build/distributions/config-server.tar
+          - 
+            name: URL_TO_TAR
+            value: https://mxt-jenkins01.newyse.maxxton/view/ms%20acc/job/build-config-server-acceptance/ws/build/distributions/config-server.tar
         ports:
         - containerPort: 8111
           hostPort: 8111
