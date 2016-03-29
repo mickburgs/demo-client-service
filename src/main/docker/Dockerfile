@@ -15,7 +15,7 @@ ENV TZ "Europe/Amsterdam"
 RUN ln -snf /usr/share/zoneinfo/${TZ} /etc/localtime && echo ${TZ} > /etc/timezone
 
 RUN mkdir ${SERVICE_HOME}
-ADD files/app.sh ${SERVICE_HOME}/
+ADD ${WORKSPACE}/src/main/docker/files/app.sh ${SERVICE_HOME}/
 
 WORKDIR ${SERVICE_HOME}
 
