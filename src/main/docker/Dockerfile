@@ -1,7 +1,22 @@
+########################################
+## Dockerfile for maxxton-services     #
+########################################
 FROM java:8
-ADD ${WORKSPACE}/build/libs/demo-client-service-0.0.1-SNAPSHOT.jar app.jar
-VOLUME /tmp
-VOLUME /target
-RUN bash -c 'touch /app.jar'
-EXPOSE 8111
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+MAINTAINER Mick Burgs <m.burgs@maxxton.com>
+
+########################################
+## micro-service setup                 #
+########################################
+# prepare app environment
+ENV SERVICE_HOME /opt/temp
+ENV TZ "Europe/Amsterdam"
+
+#Set the timezone inside the docker container
+RUN ln -snf /usr/share/zoneinfo/${TZ} /etc/localtime && echo ${TZ} > /etc/timezone
+
+RUN mkdir ${SERVICE_HOME}
+ADD files/app.sh ${SERVICE_HOME}/
+
+WORKDIR ${SERVICE_HOME}
+
+CMD bash -C './app.sh';'bash'
