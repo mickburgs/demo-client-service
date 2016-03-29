@@ -24,6 +24,7 @@ export "$APP_JAVA_OPTS"="$SERVICE_JAVA_OPTS_VALUES"
 # If $URL_TO_TAR variable is not set, then we will use the $URL_TO_JAR variable.
 if [[ -z "$URL_TO_TAR" ]]; then
   # download the micro-service jar file from jenkins
+  echo $URL_TO_JAR
   curl --location --remote-name --junk-session-cookies --insecure --user realm-jenkins:d2e3ded9b61027018f1eb5ba0297cff9 "$URL_TO_JAR"
   
   # execute the jar file with the provided parameters
@@ -32,6 +33,7 @@ if [[ -z "$URL_TO_TAR" ]]; then
   $EXEC_JAR_CALL
 else
   # download the micro-service tar file from jenkins
+  echo $URL_TO_TAR
   curl --location --remote-name --junk-session-cookies --insecure --user realm-jenkins:d2e3ded9b61027018f1eb5ba0297cff9 "$URL_TO_TAR"
 
   # decompress the tar file
