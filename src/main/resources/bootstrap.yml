@@ -11,5 +11,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://172.16.254.191:8002/eureka
-    healthcheck:
-      enabled: false
