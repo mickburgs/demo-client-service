@@ -47,8 +47,8 @@ uploadArchives {
              authentication(userName: "admin", password: "admin123")
 }
              pom.version = "1.0-SNAPSHOT"
-             pom.artifactId = "simple-project"
-             pom.groupId = "com.example"
+             pom.artifactId = "demo-client"
+             pom.groupId = "com.maxxton"
        }
     }
 }
