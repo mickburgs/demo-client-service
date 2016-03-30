@@ -1,0 +1,21 @@
+kind: ReplicationController
+apiVersion: v1
+metadata:
+  name: <%= ENV['DEMO_CLIENT'] %>
+  labels:
+    name: <%= ENV['DEMO_CLIENT'] %>
+spec:
+  replicas: 1
+  selector:
+    name: <%= ENV['DEMO_CLIENT'] %>
+  template:
+    metadata:
+      labels:
+        name: <%= ENV['DEMO_CLIENT'] %>
+    spec:
+      containers:
+      - name: <%= ENV['DEMO_CLIENT'] %>
+        image: mickburgs/demo-client-service
+        ports:
+        - containerPort: 8111
+          hostPort: 8111
