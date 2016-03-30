@@ -19,4 +19,8 @@ spec:
         ports:
         - containerPort: 8111
           hostPort: 8111
-
+        lifecycle:
+          preStop:
+            exec:
+              # SIGTERM triggers a quick exit; gracefully terminate instead
+              command: ["/bin/bash", "-c", "PID=`pidof java` && kill -SIGTERM $PID && while ps -p $PID > /dev/null; do sleep 1; done;"]
