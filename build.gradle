@@ -38,6 +38,19 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
 
+uploadArchives {
+    repositories {
+       mavenDeployer {
+             repository(url: "http://localhost:8081/nexus/content/repositories/snapshots") {
+             authentication(userName: "admin", password: "admin123")
+}
+             pom.version = "1.0-SNAPSHOT"
+             pom.artifactId = "simple-project"
+             pom.groupId = "com.example"
+       }
+    }
+}
+
 dependencyManagement {
 	imports { 
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:Brixton.BUILD-SNAPSHOT" 
