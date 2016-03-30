@@ -13,6 +13,7 @@ buildscript {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
+apply plugin: 'maven' 
 
 jar {
 	baseName = 'demo-client-service'
@@ -28,6 +29,7 @@ repositories {
 	mavenCentral()
 	maven { url "https://repo.spring.io/snapshot" }
 	maven { url "https://repo.spring.io/milestone" }
+	maven { url "http://192.168.252.157:8081/nexus/content/groups/public" }
 }
 
 
@@ -41,7 +43,7 @@ dependencies {
 uploadArchives {
     repositories {
        mavenDeployer {
-             repository(url: "http://localhost:8081/nexus/content/repositories/snapshots") {
+             repository(url: "http://192.168.252.157:8081/nexus/content/repositories/snapshots") {
              authentication(userName: "admin", password: "admin123")
 }
              pom.version = "1.0-SNAPSHOT"
