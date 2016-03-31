@@ -49,8 +49,8 @@ uploadArchives {
 	     snapshotRepository(url: "http://192.168.252.157:8081/nexus/content/repositories/snapshots") {
                	authentication(userName: "admin", password: "admin123")
              }
-             pom.version = "1." . System.env.BUILD_NUMBER
-             pom.artifactId = "demo-client"
+             pom.version = System.env.BUILD_NUMBER
+             pom.artifactId = "demo-client-v1"
              pom.groupId = "com.maxxton"
        }
     }
