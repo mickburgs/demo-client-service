@@ -40,6 +40,8 @@ dependencies {
 	testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
 
+BUILDNUMBER = System.env.BUILD_NUMBER
+
 uploadArchives {
     repositories {
        mavenDeployer {
@@ -49,7 +51,6 @@ uploadArchives {
 	     snapshotRepository(url: "http://192.168.252.157:8081/nexus/content/repositories/snapshots") {
                	authentication(userName: "admin", password: "admin123")
              }
-             BUILDNUMBER = System.env.BUILD_NUMBER
              pom.version = BUILDNUMBER + -SNAPSHOT
              pom.artifactId = "demo-client.v1"
              pom.groupId = "com.maxxton"
