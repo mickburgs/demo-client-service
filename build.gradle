@@ -47,8 +47,8 @@ uploadArchives {
              	authentication(userName: "admin", password: "admin123")
 	     }
 	     snapshotRepository(url: "http://192.168.252.157:8081/nexus/content/repositories/snapshots") {
- -             	authentication(userName: "admin", password: "admin123")
- -           }
+               	authentication(userName: "admin", password: "admin123")
+             }
              pom.version = "1.0-RELEASE"
              pom.artifactId = "demo-client"
              pom.groupId = "com.maxxton"
