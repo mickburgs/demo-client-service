@@ -50,8 +50,8 @@ uploadArchives {
                	authentication(userName: "admin", password: "admin123")
              }
              pom.version = System.env.BUILD_NUMBER
-             pom.artifactId = "v1"
-             pom.groupId = "com.maxxton.demo-client"
+             pom.artifactId = "demo-client.v1"
+             pom.groupId = "com.maxxton"
        }
     }
 }
