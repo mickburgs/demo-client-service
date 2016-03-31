@@ -1,20 +1,18 @@
 kind: ReplicationController
 apiVersion: v1
 metadata:
-  name: demo-client
+  name: demo-client-v1
   labels:
-    name: demo-client
+    name: demo-client-v1
 spec:
   replicas: 1
-  selector:
-    name: demo-client
   template:
     metadata:
       labels:
-        name: demo-client
+        name: demo-client-v1
     spec:
       containers:
-      - name: demo-client
+      - name: demo-client-v1
         image: mickburgs/demo-client-service
         ports:
         - containerPort: 8111
