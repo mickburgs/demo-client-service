@@ -1,4 +1,3 @@
-BUILDNUMBER = System.env.BUILD_NUMBER
 buildscript {
 	ext {
 		springBootVersion = '1.3.3.RELEASE'
@@ -50,7 +49,8 @@ uploadArchives {
 	     snapshotRepository(url: "http://192.168.252.157:8081/nexus/content/repositories/snapshots") {
                	authentication(userName: "admin", password: "admin123")
              }
-             pom.version = BUILDNUMBER + -SNAPSHOT
+             //pom.version = System.env.BUILD_NUMBER
+             pom.version = "SNAPSHOT"
              pom.artifactId = "demo-client.v1"
              pom.groupId = "com.maxxton"
        }
