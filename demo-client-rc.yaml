@@ -14,6 +14,13 @@ spec:
       containers:
       - name: demo-client-v1
         image: mickburgs/demo-client-service
+        env:
+        - name: URL_TO_JAR
+          value: http://192.168.252.171:8081/nexus/service/local/artifact/maven/content?r=releases&g=com.maxxton&a=demo-client-v1&v=LATEST
+        - name: SERVICE_NAME
+          value: demo-client-service
+        - name: SERVICE_JAVA_OPTS
+          value: "-Dspring.profiles.active=acceptance"
         ports:
         - containerPort: 8111
           hostPort: 8111
