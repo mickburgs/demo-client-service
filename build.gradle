@@ -45,10 +45,10 @@ dependencies {
 uploadArchives {
     repositories {
        mavenDeployer {
-             repository(url: "http://192.168.252.157:8081/nexus/content/repositories/releases") {
+             repository(url: "http://192.168.252.171:8081/nexus/content/repositories/releases") {
              	authentication(userName: "admin", password: "admin123")
 	     }
-	     snapshotRepository(url: "http://192.168.252.157:8081/nexus/content/repositories/snapshots") {
+	     snapshotRepository(url: "http://192.168.252.171:8081/nexus/content/repositories/snapshots") {
                	authentication(userName: "admin", password: "admin123")
              }
              pom.version = System.env.BUILD_NUMBER
