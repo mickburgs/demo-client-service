@@ -53,7 +53,7 @@ uploadArchives {
              }
              //pom.version = System.env.BUILD_NUMBER
              pom.version = "SNAPSHOT"
-             pom.artifactId = "demo-client-v1"
+             pom.artifactId = "demo-client-v2"
              pom.groupId = "com.maxxton"
        }
     }
