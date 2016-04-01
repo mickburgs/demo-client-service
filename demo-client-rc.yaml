@@ -2,8 +2,6 @@ kind: ReplicationController
 apiVersion: v1
 metadata:
   name: demo-client-v1
-  labels:
-    name: demo-client-v1
 spec:
   replicas: 1
   template:
@@ -12,7 +10,7 @@ spec:
         name: demo-client-v1
     spec:
       containers:
-      - name: demo-client-v1
+      - name: demo-client
         image: mickburgs/demo-client-service
         env:
         - name: URL_TO_JAR
