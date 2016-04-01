@@ -10,10 +10,6 @@ buildscript {
 	}
 }
 
-plugins {
-    id 'nebula.nebula-release' version '4.0.1'
-}
-
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
@@ -23,7 +19,7 @@ apply plugin: 'maven'
 
 jar {
 	baseName = 'demo-client-service'
-	//version = '0.0.1-SNAPSHOT'
+	version = '0.0.1-SNAPSHOT'
 	manifest {
 		attributes 'Main-Class': 'com.maxxton.client.DemoClientServiceApplication'
 	}
