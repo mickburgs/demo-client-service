@@ -23,7 +23,7 @@ apply plugin: 'maven'
 
 jar {
 	baseName = 'demo-client-service'
-	version = '0.0.1-SNAPSHOT'
+	//version = '0.0.1-SNAPSHOT'
 	manifest {
 		attributes 'Main-Class': 'com.maxxton.client.DemoClientServiceApplication'
 	}
