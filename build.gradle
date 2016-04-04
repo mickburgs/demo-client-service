@@ -76,6 +76,23 @@ pluginBundle {
     }
 }
 
+ploadArchives {
+    repositories {
+       mavenDeployer {
+             repository(url: "http://192.168.252.158:8081/nexus/content/repositories/releases") {
+             	authentication(userName: "admin", password: "admin123")
+	     }
+	     snapshotRepository(url: "http://192.168.252.158:8081/nexus/content/repositories/snapshots") {
+               	authentication(userName: "admin", password: "admin123")
+             }
+             
+             pom.version = "v1-SNAPSHOT"
+             pom.artifactId = "demo-client"
+             pom.groupId = "com.maxxton"
+       }
+    }
+}
+
 dependencyManagement {
 	imports { 
 		mavenBom "org.springframework.cloud:spring-cloud-dependencies:Brixton.BUILD-SNAPSHOT" 
