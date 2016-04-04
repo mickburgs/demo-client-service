@@ -1,7 +1,9 @@
 buildscript {
     repositories {
         jcenter()
-        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
         classpath 'com.netflix.nebula:nebula-release-plugin:4.0.1'
