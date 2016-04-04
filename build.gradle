@@ -1,0 +1,61 @@
+buildscript {
+    repositories { jcenter() }
+}
+
+plugins {
+    id 'groovy'
+    id 'idea'
+    id 'jacoco'
+    id 'nebula.maven-publish' version '4.4.4'
+    id 'nebula.javadoc-jar' version '4.4.4'
+    id 'nebula.source-jar' version '4.4.4'
+    id 'nebula.maven-apache-license' version '4.4.4'
+    id 'nebula.optional-base' version '3.0.3'
+    id 'nebula.dependency-lock' version '4.2.0'
+    id 'nebula.nebula-release' version '4.0.0'
+    id 'nebula.nebula-bintray' version '3.3.2'
+    id 'nebula.info' version '3.0.3'
+    id 'nebula.contacts' version '3.0.1'
+    id 'nebula.integtest' version '3.0.3'
+    id 'com.gradle.plugin-publish' version '0.9.3'
+    id 'com.github.kt3k.coveralls' version '2.6.3'
+}
+
+description 'Release opinions on top of gradle-git'
+
+group = 'com.netflix.nebula'
+
+contacts {
+    'rob.spieldenner@gmail.com' {
+        moniker 'Rob Spieldenner'
+        github 'rspieldenner'
+    }
+}
+
+apply from: 'https://raw.githubusercontent.com/nebula-plugins/nebula-core/59c9e15f561372a8a72bbe13e4fbb114d0ef16f8/common.gradle'
+
+dependencies {
+    compile 'com.netflix.nebula:nebula-core:3.0.1'
+    compile 'com.netflix.nebula:nebula-bintray-plugin:3.3.2', optional
+    compile 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.5', optional
+    compile 'org.ajoberstar:gradle-git:1.4.1'
+}
+
+tasks.withType(Test) {
+    maxHeapSize = '1024m'
+    jvmArgs "-XX:MaxPermSize=512m"
+}
+
+jacocoTestReport {
+    executionData = files('build/jacoco/test.exec', 'build/jacoco/integrationTest.exec')
+}
+
+pluginBundle {
+    plugins {
+        nebulaRelease {
+            id = 'nebula.nebula-release'
+            displayName = 'Nebula Release plugin'
+            tags = ['nebula', 'release', 'versioning']
+        }
+    }
+}
