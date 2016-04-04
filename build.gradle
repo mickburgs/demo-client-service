@@ -40,9 +40,9 @@ description 'Release opinions on top of gradle-git'
 group = 'com.netflix.nebula'
 
 contacts {
-    'rob.spieldenner@gmail.com' {
-        moniker 'Rob Spieldenner'
-        github 'rspieldenner'
+    'mick.burgs@gmail.com' {
+        moniker 'Mick Burgs'
+        github 'mickburgs'
     }
 }
 
