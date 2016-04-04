@@ -31,7 +31,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
 apply plugin: 'maven' 
-apply plugin: 'war'
+//apply plugin: 'war'
 apply plugin: 'application'
 
 mainClassName = 'com.maxxton.client.DemoClientServiceApplication'
