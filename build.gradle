@@ -37,7 +37,7 @@ apply plugin: 'maven'
 
 description 'Release opinions on top of gradle-git'
 
-group = 'com.netflix.nebula'
+group = 'com.maxxton'
 
 contacts {
     'mick.burgs@gmail.com' {
@@ -87,7 +87,7 @@ uploadArchives {
              }
              
              //pom.version = "v1-SNAPSHOT"
-             //pom.artifactId = "demo-client"
+             pom.artifactId = "demo-client"
              //pom.groupId = "com.maxxton"
        }
     }
