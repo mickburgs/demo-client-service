@@ -66,15 +66,6 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test') 
 }
 
-tasks.withType(Test) {
-    maxHeapSize = '1024m'
-    jvmArgs "-XX:MaxPermSize=512m"
-}
-
-jacocoTestReport {
-    executionData = files('build/jacoco/test.exec', 'build/jacoco/integrationTest.exec')
-}
-
 pluginBundle {
     plugins {
         nebulaRelease {
