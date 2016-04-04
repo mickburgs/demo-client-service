@@ -88,7 +88,7 @@ uploadArchives {
              
              //pom.version = "v1-SNAPSHOT"
              pom.artifactId = "demo-client"
-             //pom.groupId = "com.maxxton"
+             pom.groupId = "com.maxxton"
        }
     }
 }
