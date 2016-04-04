@@ -32,6 +32,8 @@ apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
 apply plugin: 'maven' 
 
+mainClassName = 'com.maxxton.client.DemoClientServiceApplication'
+
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
@@ -48,8 +50,6 @@ contacts {
 
 repositories {
 	mavenCentral()
-	maven { url "https://repo.spring.io/snapshot" }
-	maven { url "https://repo.spring.io/milestone" }
 	maven { url "http://192.168.252.158:8081/nexus/content/groups/public" }
 }
 
@@ -82,7 +82,6 @@ uploadArchives {
                	authentication(userName: "admin", password: "admin123")
              }
              
-             //pom.version = "v1-SNAPSHOT"
              pom.artifactId = "demo-client"
              pom.groupId = "com.maxxton"
        }
