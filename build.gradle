@@ -8,12 +8,9 @@ buildscript {
 	}
 }
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'spring-boot' 
-apply plugin: 'maven' 
-
 plugins {
+    id 'java'
+    id 'spring-boot'
     id 'groovy'
     id 'idea'
     id 'jacoco'
