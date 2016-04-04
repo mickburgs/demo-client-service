@@ -55,7 +55,6 @@ repositories {
 
 dependencies {
     compile 'com.netflix.nebula:nebula-core:3.0.1'
-    compile 'com.netflix.nebula:nebula-bintray-plugin:3.3.2', optional
     compile 'org.ajoberstar:gradle-git:1.4.1'
     compile('org.springframework.cloud:spring-cloud-starter-eureka')
     compile('org.springframework.cloud:spring-cloud-starter-feign')
