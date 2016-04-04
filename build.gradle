@@ -1,5 +1,8 @@
 buildscript {
-    repositories { jcenter() }
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
     dependencies {
         classpath 'com.netflix.nebula:nebula-release-plugin:4.0.1'
         classpath 'com.netflix.nebula:nebula-bintray-plugin:3.3.2'
