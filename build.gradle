@@ -5,6 +5,7 @@ buildscript {
         classpath 'com.netflix.nebula:nebula-bintray-plugin:3.3.2'
         classpath 'com.netflix.nebula:gradle-contacts-plugin:3.0.1'
         classpath 'com.netflix.nebula:gradle-dependency-lock-plugin:4.2.0'
+        classpath "com.gradle.publish:plugin-publish-plugin:0.9.4"
     }
 }
 
@@ -12,6 +13,7 @@ apply plugin: 'nebula.nebula-release'
 apply plugin: 'nebula.nebula-bintray'
 apply plugin: 'nebula.contacts'
 apply plugin: 'nebula.dependency-lock'
+apply plugin: "com.gradle.plugin-publish"
 apply plugin: 'groovy'
 apply plugin: 'jacoco'
 
