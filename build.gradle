@@ -52,9 +52,9 @@ uploadArchives {
                	authentication(userName: "admin", password: "admin123")
              }
              
-             //pom.version = "v1-SNAPSHOT"
+             pom.version = "v1-SNAPSHOT"
              //pom.version = System.env.BUILD_NUMBER
-             pom.version = System.env.DEMO_CLIENT_VERSION
+             //pom.version = System.env.DEMO_CLIENT_VERSION
              pom.artifactId = "demo-client"
              pom.groupId = "com.maxxton"
        }
