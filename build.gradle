@@ -90,7 +90,7 @@ uploadArchives {
                	authentication(userName: "admin", password: "admin123")
              }
              
-             pom.artifactId = "demo-client"
+             pom.artifactId = "demo-client-v1"
              pom.groupId = "com.maxxton"
        }
     }
