@@ -22,12 +22,12 @@ buildscript {
 apply plugin: 'nebula.nebula-release'
 apply plugin: 'nebula.contacts'
 apply plugin: 'nebula.dependency-lock'
-apply plugin: "nebula.optional-base"
+//apply plugin: "nebula.optional-base"
 apply plugin: "com.gradle.plugin-publish"
 apply plugin: 'groovy'
-apply plugin: 'jacoco'
-apply plugin: 'idea'
+//apply plugin: 'jacoco'
 apply plugin: 'java'
+//apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
 apply plugin: 'maven' 
