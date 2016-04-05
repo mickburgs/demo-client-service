@@ -1,4 +1,3 @@
-println "$System.env.POM_VERSION"
 buildscript {
     ext {
 		springBootVersion = '1.3.3.RELEASE'
@@ -19,7 +18,7 @@ buildscript {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}") 
     }
 }
-println "$System.env.POM_VERSION"
+
 apply plugin: 'nebula.nebula-release'
 apply plugin: 'nebula.contacts'
 apply plugin: 'nebula.dependency-lock'
@@ -90,10 +89,8 @@ uploadArchives {
 	     snapshotRepository(url: "http://192.168.252.158:8081/nexus/content/repositories/snapshots") {
                	authentication(userName: "admin", password: "admin123")
              }
-             //println System.getenv("POM_VERSION").substring(0,1)
-             //println System.getenv("POM_VERSION")
-             println "$System.env.POM_VERSION"
-             pom.artifactId = "demo-client-v1"
+
+             pom.artifactId = "demo-client"
              pom.groupId = "com.maxxton"
        }
     }
@@ -116,4 +113,3 @@ eclipse {
 task wrapper(type: Wrapper) {
 	gradleVersion = '2.9'
 }
-println "$System.env.POM_VERSION"
