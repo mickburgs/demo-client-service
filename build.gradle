@@ -89,9 +89,9 @@ uploadArchives {
 	     snapshotRepository(url: "http://192.168.252.158:8081/nexus/content/repositories/snapshots") {
                	authentication(userName: "admin", password: "admin123")
              }
-             version = System.getenv("POM_VERSION")
-             println version
-             println version.substring(0,1)
+             pomv = System.getenv("POM_VERSION")
+             println pomv
+             println pomv.substring(0,1)
              pom.artifactId = "demo-client-v1"
              pom.groupId = "com.maxxton"
        }
