@@ -20,7 +20,6 @@ buildscript {
     }
 }
 
-
 apply plugin: 'nebula.nebula-release'
 apply plugin: 'nebula.contacts'
 apply plugin: 'nebula.dependency-lock'
