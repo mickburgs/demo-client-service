@@ -18,7 +18,6 @@ buildscript {
     }
 }
 
-
 apply plugin: 'nebula.nebula-release'
 apply plugin: 'nebula.dependency-lock'
 apply plugin: "com.gradle.plugin-publish"
