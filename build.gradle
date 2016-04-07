@@ -11,7 +11,6 @@ buildscript {
     }
     dependencies {
         classpath 'com.netflix.nebula:nebula-release-plugin:4.0.1'
-        classpath 'com.netflix.nebula:gradle-contacts-plugin:3.0.1'
         classpath 'com.netflix.nebula:gradle-dependency-lock-plugin:4.2.0'
         classpath "com.gradle.publish:plugin-publish-plugin:0.9.4"
         classpath "com.netflix.nebula:gradle-extra-configurations-plugin:3.0.3"
@@ -20,14 +19,10 @@ buildscript {
 }
 
 apply plugin: 'nebula.nebula-release'
-apply plugin: 'nebula.contacts'
 apply plugin: 'nebula.dependency-lock'
-//apply plugin: "nebula.optional-base"
 apply plugin: "com.gradle.plugin-publish"
 apply plugin: 'groovy'
-//apply plugin: 'jacoco'
 apply plugin: 'java'
-//apply plugin: 'idea'
 apply plugin: 'eclipse'
 apply plugin: 'spring-boot' 
 apply plugin: 'maven' 
@@ -37,15 +32,6 @@ sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
 description 'Release opinions on top of gradle-git'
-
-group = 'com.maxxton'
-
-contacts {
-    'mick.burgs@gmail.com' {
-        moniker 'Mick Burgs'
-        github 'mickburgs'
-    }
-}
 
 repositories {
 	mavenCentral()
@@ -95,7 +81,6 @@ uploadArchives {
        }
     }
 }
-
 
 dependencyManagement {
 	imports { 
