@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27739b5-967d-4f25-9e12-608ee4e0b919" name="Default" comment="" />
+    <list default="true" id="c27739b5-967d-4f25-9e12-608ee4e0b919" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_eureka_eureka_client_1_4_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_eureka_eureka_core_1_4_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_core_1_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_core_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_eureka_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_transport_2_2_0.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_eureka_eureka_client_1_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_eureka_eureka_core_1_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_hystrix_hystrix_core_1_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_2_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_core_2_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_eureka_2_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_transport_2_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/maxxton/client/DemoClientController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/maxxton/client/DemoClientServiceApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/maxxton/client/DemoServerClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/com/maxxton/client/DemoClientServiceApplicationTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/demo-client-service-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/demo-client-service-0.0.1-SNAPSHOT.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/classes/com.maxxton.client.DemoClientServiceApplicationTests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/base-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/js/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/reports/tests/packages/com.maxxton.client.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/TEST-com.maxxton.client.DemoClientServiceApplicationTests.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/output.bin.idx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test-results/binary/test/results.bin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/fatJar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/maxxton/client/DemoClientServiceApplicationTests.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_httpclient_2_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_httpclient_2_2_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_loadbalancer_2_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_netflix_ribbon_ribbon_loadbalancer_2_2_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/docker/Dockerfile" afterPath="$PROJECT_DIR$/src/main/docker/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_commons_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_context_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_core_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_core_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_netflix_eureka_client_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_archaius_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_archaius_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_eureka_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_eureka_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_feign_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_feign_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_ribbon_1_1_1_BUILD_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_cloud_spring_cloud_starter_ribbon_1_1_1_BUILD_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo-client-service.iml" afterPath="$PROJECT_DIR$/demo-client-service.iml" />
+    </list>
     <ignored path="demo-client-service.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -38,41 +95,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DemoClientServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java">
+      <file leaf-file-name="CrashClassLoader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
+      <file leaf-file-name="CrashClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8680851">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoClientController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java">
+      <file leaf-file-name="Start.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoServerClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8895349">
+              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -81,7 +128,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-5.857143">
               <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
@@ -314,7 +361,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$/../config-server/config-server" value="1455175964000" />
-        <entry key="$PROJECT_DIR$" value="1463729551050" />
+        <entry key="$PROJECT_DIR$" value="1465385118864" />
         <entry key="$PROJECT_DIR$/../demo-eureka-service" value="1457355968000" />
         <entry key="$PROJECT_DIR$/../demo-server-service" value="1457356128000" />
         <entry key="$PROJECT_DIR$/../my-service/my-service" value="1455176328000" />
@@ -332,26 +379,26 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.1.BUILD-SNAPSHOT/6319e03f2198411ecf42193828dee7d1c02b971/spring-cloud-starter-eureka-1.1.1.BUILD-SNAPSHOT.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-feign/1.1.1.BUILD-SNAPSHOT/98922a4696aee5bae7ed23ba0c74804c100a6c49/spring-cloud-starter-feign-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-eureka/1.1.1.BUILD-SNAPSHOT/bb55693d4bba9dcd7a929228516869225d089228/spring-cloud-starter-eureka-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-feign/1.1.1.BUILD-SNAPSHOT/acdda1f2a5019ecb9d22364a6c39a115e1d3dbf4/spring-cloud-starter-feign-1.1.1.BUILD-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.3.RELEASE/80eb20b41f248744445536cf1b4bcfffaf7543ba/spring-boot-starter-web-1.3.3.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.3.RELEASE/f1ee2657f50844d8682b30a1f40aebff3ad60cce/spring-boot-starter-web-1.3.3.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/1.1.1.BUILD-SNAPSHOT/74188e86b029dc85cec5f47d73b681a59d09bb63/spring-cloud-starter-1.1.1.BUILD-SNAPSHOT.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.1.1.BUILD-SNAPSHOT/ade35d3f3682b5fbcb68fb0087e703e1e0079ae2/spring-cloud-netflix-core-1.1.1.BUILD-SNAPSHOT.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/1.1.1.BUILD-SNAPSHOT/dcfd3f396742950c531cef51da5c47246504b9b1/spring-cloud-netflix-eureka-client-1.1.1.BUILD-SNAPSHOT.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.4.6/c55bafe506837d69718997d52bc1a9e0c477555d/eureka-client-1.4.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.4.6/851deb3c125774fee51443dc8b7deda8ea451edb/eureka-client-1.4.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.4.6/db248cf581c8bbb8edfd4c4f7685a470de8bd969/eureka-core-1.4.6-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.4.6/3d20eed4aecadbac958eb72101b96ea2507b656e/eureka-core-1.4.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-archaius/1.1.1.BUILD-SNAPSHOT/bc5229972d32821dd984b4c6413b30e86bc0e287/spring-cloud-starter-archaius-1.1.1.BUILD-SNAPSHOT.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.1.BUILD-SNAPSHOT/4b513c817c101d2a26c9338e76f9d60d9022bcda/spring-cloud-starter-ribbon-1.1.1.BUILD-SNAPSHOT.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.1.5/b51463efb95c353059c4ccfcaf6681dc06a13075/ribbon-eureka-2.1.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.1.5/4f3d159f1178ec467c8d778a4ede270b2365372e/ribbon-eureka-2.1.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter/1.1.1.BUILD-SNAPSHOT/5eb492607f811a5b519dbc97a223b3aff12c80cf/spring-cloud-starter-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-core/1.1.1.BUILD-SNAPSHOT/862e14fcb0052f7e3c926a71bb2aecfd68ddf3dc/spring-cloud-netflix-core-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-netflix-eureka-client/1.1.1.BUILD-SNAPSHOT/c2e9fad6401eca7ddc5530e9bbf2e19e263f8b03/spring-cloud-netflix-eureka-client-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.4.8/8731a061a670b0a3101e9137eb87e498805b5787/eureka-client-1.4.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-client/1.4.8/995c4520372cdb6112c307d8ee66bb7a3882879c/eureka-client-1.4.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.4.8/5fe9dbcf9609457e31f4ff3f6cfb411975f5abc3/eureka-core-1.4.8-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.eureka/eureka-core/1.4.8/82d256510bd2a426e1f5d36496bc1d2add806145/eureka-core-1.4.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-archaius/1.1.1.BUILD-SNAPSHOT/c8ac01d892bbb9bc7b1feff70af4ddd4152531cb/spring-cloud-starter-archaius-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-ribbon/1.1.1.BUILD-SNAPSHOT/c669bfe0e605678191cba83dc7502f4c59f678ea/spring-cloud-starter-ribbon-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.2.0/eec4b714a15d75eb9bf9f1249a44ff3c3ffe720d/ribbon-eureka-2.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-eureka/2.2.0/1c630f487c11725fa4a674126238621a11a991c/ribbon-eureka-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.2/3ffcab5525deb05ef41765f9b3ca13e81c0243d7/xstream-1.4.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.thoughtworks.xstream/xstream/1.4.2/97e5013f391487cce4de6b0eebcde21549e91872/xstream-1.4.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.5.RELEASE/6d6268e82b35921d9daf4cfda9a2f1bd99afd87a/spring-web-4.2.5.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.5.RELEASE/49cd2430884b77172aa81e3fc33ef668ea1dab30/spring-web-4.2.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.1.BUILD-SNAPSHOT/6971e77f7ffd284e3f4525f28ad44c242ae79185/spring-cloud-commons-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/1.1.1.BUILD-SNAPSHOT/efeeeca595b2f15cd493da59e306c87e762cda91/spring-cloud-commons-1.1.1.BUILD-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.feign/feign-core/8.16.2/ec0291340e381e98b9928d09f86c8c7cd08b1fc7/feign-core-8.16.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.feign/feign-core/8.16.2/5de63f084601c4080e7a00403af922ad92683d3f/feign-core-8.16.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.feign/feign-slf4j/8.16.2/f3a37cadf20bc43490d9527e7db2b34f938645aa/feign-slf4j-8.16.2-sources.jar" />
@@ -368,9 +415,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.5/d50be1723a09befd903887099ff2014ea9020333/jackson-databind-2.6.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.5.RELEASE/4defda95bd56638dee17b63637f50dc8be771283/spring-webmvc-4.2.5.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.5.RELEASE/cf463cce3e4453eb4b9a69de2dcdfd60c3c57e0/spring-webmvc-4.2.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.5.RELEASE/86b9af475e134ba9f5c3843f33ff3ecd6cf95883/spring-core-4.2.5.RELEASE-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.5.RELEASE/251207b29f0f38f61e3495a2f7fb053cf1bfe8c/spring-core-4.2.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/1.1.1.BUILD-SNAPSHOT/2128912388a2f9320e3087d98c1fa0e5451c7270/spring-cloud-context-1.1.1.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-context/1.1.1.BUILD-SNAPSHOT/4fe54be3509a287c327ebfcc5f3e55a1ae5ae0ae/spring-cloud-context-1.1.1.BUILD-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.1.RELEASE/62a3222a119518e4a1700a5429e6f8fb1c223ad2/spring-security-rsa-1.0.1.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-rsa/1.0.1.RELEASE/cf1c72134773a005544d7d468baca104b373f077/spring-security-rsa-1.0.1.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.3.RELEASE/5e9756091cc536ab48a7f98bdb551f4246c4ed0d/spring-boot-1.3.3.RELEASE-sources.jar" />
@@ -421,14 +466,14 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.8/6cce40435bcd8018018f16898de01976b319941a/commons-configuration-1.8.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/ad97fe8faaf01a3d3faacecd58e8fa6e78a973ca/guava-18.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.1.5/18586ec33c045b266ebe93aa6ab6561f0e5e5cf5/ribbon-2.1.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.1.5/646de95467d499b63e354cce7e541ceb2002fe2c/ribbon-2.1.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.1.5/9a87dcf9e118863c0e4e09c38aec778f71e3df47/ribbon-core-2.1.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.1.5/b57101fad8fca16b66aa15ec17c74fc601613da4/ribbon-core-2.1.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.1.5/5bd526160d759449e1dcdc0fbd1ee7c0c42f5553/ribbon-httpclient-2.1.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.1.5/189ce2bc2099ce7248329ef5e199bd100b2cac6f/ribbon-httpclient-2.1.5.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.1.5/73914fc9b70f1b12edd3d9accd7d8fcc9c83cbc3/ribbon-loadbalancer-2.1.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.1.5/ee934a3f6e435e90e38c6a19bf577de32942c951/ribbon-loadbalancer-2.1.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.2.0/d5a18fc1d09afb2210fe92444bbef5be03ebef6a/ribbon-2.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon/2.2.0/5c906c20896e72c60231b7367249e8d329d7565f/ribbon-2.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.2.0/ab0a57cc8c8cac23561decf0664518abc53aa82f/ribbon-core-2.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-core/2.2.0/6033ba88ac7ce1e76337f66a74121e0b9886391d/ribbon-core-2.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.2.0/235b250cfdb02c2d2f05ac7253b5b213caf25a24/ribbon-httpclient-2.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-httpclient/2.2.0/ae3677b0fb963fad3198fe7324030a6f7c8ba6c2/ribbon-httpclient-2.2.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.0/286b9a9cb8588274fc1fa2527ea094419a49f2b2/ribbon-loadbalancer-2.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-loadbalancer/2.2.0/6f96ecf9cfa330403ade3d8db619aa0c500ca13e/ribbon-loadbalancer-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/6d674958ad6810d86349fa54ebf0e95a626f106d/rxjava-1.1.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.5/ece7b5d0870e66d8226dab6dcf47a2b12afff061/rxjava-1.1.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.16/974c5dd98f38036bd98b3a8f7bf00ee0d91adbdd/slf4j-api-1.7.16-sources.jar" />
@@ -442,12 +487,14 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.5.RELEASE/fa992ae40f6fc47117282164e0433b71da385e94/spring-beans-4.2.5.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/8bcd5b15133bb5423cdc9f33da7e4ac585fd783a/spring-context-4.2.5.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/a75e18322c7b362fe1daa26a245ae672ec0f3138/spring-context-4.2.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.5.RELEASE/86b9af475e134ba9f5c3843f33ff3ecd6cf95883/spring-core-4.2.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.5.RELEASE/251207b29f0f38f61e3495a2f7fb053cf1bfe8c/spring-core-4.2.5.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/4.0.3.RELEASE/b7414f877d070e916136a0a222e9c335dc99ff47/spring-security-crypto-4.0.3.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/4.0.3.RELEASE/46802f89ed4b7894b527058aeaeeab7fba53276a/spring-security-crypto-4.0.3.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet/animal-sniffer-annotation/1.0/8450d91105abe0e16c7083d86282adeb0e2c71cf/animal-sniffer-annotation-1.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet/animal-sniffer-annotation/1.0/67da8e0d8a8ef79c461a489f9f7bb3e86e23ccae/animal-sniffer-annotation-1.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.2/2b479a670a82ef8ca4bfc6dbb844bf38a67ac655/hystrix-core-1.5.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.2/9c2c14256c639d565e9f24dd91832c5d0f06d6a2/hystrix-core-1.5.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.3/35d1083b6a40461dd79aa62cfdc6c91771606ba1/hystrix-core-1.5.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.hystrix/hystrix-core/1.5.3/3d6f0362bc260c0ae15a498458b0a833e47cf8c1/hystrix-core-1.5.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.3.RELEASE/46f42c0459e97ad98fef282e9c3ad4899925c666/spring-boot-starter-logging-1.3.3.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.3.RELEASE/16b395c84f28b947f1c336aa461fda1e662bb3b6/spring-boot-starter-logging-1.3.3.RELEASE.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/ad03b39efb3749be4c8d2eae23d6dee72c889f3b/snakeyaml-1.16-sources.jar" />
@@ -464,8 +511,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.5.RELEASE/c55ae1e0e6858098c2b2b22a7a9638d6cd76db8d/spring-expression-4.2.5.RELEASE-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.5.RELEASE/a42bdfb833d0be6c18429aea3fb0fba81f85c6e8/spring-expression-4.2.5.RELEASE.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.47/80e774a73d0e6a6b40ddf35fff613f9f30fe2a98/bcpkix-jdk15on-1.47-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.47/cd204e6f26d2bbf65ff3a30de8831d3a1344e851/bcpkix-jdk15on-1.47.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/stax/stax-api/1.0.1/49c100caf72d658aca8e58bd74a4ba90fa2b0d70/stax-api-1.0.1.jar" />
@@ -479,6 +524,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-core/1.12.10/e31f6547a2124379694ff7592a0bd8fd2c1fcdac/governator-core-1.12.10-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.governator/governator-core/1.12.10/87401d6d5ec5d32323b007f1a8a4f2b7a7527c36/governator-core-1.12.10.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/112ff54474f1f04ccf1384c92e39fdc566f0bb5e/asm-5.0.4-sources.jar" />
@@ -489,8 +536,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/3.1.4/ac19014b1e6a7c08aad07fe114af792676b685b7/stax2-api-3.1.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/67313d715fbf0ea4fd0bdb69217fb77f807a8ce5/commons-lang-2.6-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.1.5/8f4fc00b2ed479d4075136ed1275e7a9d00f9928/ribbon-transport-2.1.5-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.1.5/da53e93f56883eefca99392abdb12d379bc6fa27/ribbon-transport-2.1.5.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.2.0/63f7ab6646d225e88993489bc6b594bffbeb622a/ribbon-transport-2.2.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.ribbon/ribbon-transport/2.2.0/e094ddf98801b54597c7e12365fbf11b948e83db/ribbon-transport-2.2.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/e994f91f231c9301e23cb1eaee8c3aaa2abf61d8/rxnetty-0.4.9-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex/rxnetty/0.4.9/5aff3c9d6bb9d9066c378bb3d2a4413ed1773bcf/rxnetty-0.4.9.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/78c50ebda5784937ca1615fc0e1d0cb35857d572/commons-collections-3.2.2-sources.jar" />
@@ -631,8 +678,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -644,10 +694,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="272" />
-    <option name="y" value="85" />
-    <option name="width" value="1400" />
-    <option name="height" value="920" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -674,6 +724,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -689,20 +741,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="demo-client-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-client-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo-client-service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -745,14 +783,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -771,13 +801,50 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-client-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-client-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-client-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo-client-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1016,7 +1083,7 @@
     </configuration>
     <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.maxxton.client.DemoClientServiceApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.maxxton.client.CrashClassLoader" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1077,20 +1144,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="272" y="85" width="1400" height="920" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6544021" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39420936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3496802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1098,12 +1165,37 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39420936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3496802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1119,7 +1211,49 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1135,7 +1269,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
@@ -1143,11 +1277,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1159,7 +1295,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="22" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -1175,7 +1311,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
@@ -1183,11 +1319,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1199,7 +1337,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
@@ -1215,7 +1353,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
@@ -1223,11 +1361,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1239,7 +1379,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
@@ -1255,7 +1395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
@@ -1263,11 +1403,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1279,42 +1421,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoServerClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/CrashClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-5.857143">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/Start.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/maxxton/client/DemoClientServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8680851">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.8895349">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>

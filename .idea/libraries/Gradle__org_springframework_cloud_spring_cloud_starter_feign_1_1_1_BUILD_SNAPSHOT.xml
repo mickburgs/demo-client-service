@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: org.springframework.cloud:spring-cloud-starter-feign:1.1.1.BUILD-SNAPSHOT">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-feign/1.1.1.BUILD-SNAPSHOT/98922a4696aee5bae7ed23ba0c74804c100a6c49/spring-cloud-starter-feign-1.1.1.BUILD-SNAPSHOT.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-feign/1.1.1.BUILD-SNAPSHOT/acdda1f2a5019ecb9d22364a6c39a115e1d3dbf4/spring-cloud-starter-feign-1.1.1.BUILD-SNAPSHOT.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-starter-feign/1.1.1.BUILD-SNAPSHOT/cb343e4f50fc4d19787b8f34b91caff5de0a5c0b/spring-cloud-starter-feign-1.1.1.BUILD-SNAPSHOT-sources.jar!/" />
-    </SOURCES>
+    <SOURCES />
   </library>
 </component>
